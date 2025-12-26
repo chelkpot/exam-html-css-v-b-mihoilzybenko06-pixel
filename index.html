@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио художника</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header id="main-header">
+        <h1 id="main-title">Портфолио художника</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основная часть -->
+    <main>
+        <!-- Блок "О художнике" -->
+        <section id="home" class="content-section">
+            <h2>О художнике</h2>
+            <p>Приветствую! Меня зовут Александр, я профессиональный художник с более чем 5-летним опытом работы в различных техниках и направлениях живописи. Мои работы участвовали в выставках по всей стране и находят своих ценителей по всему миру.</p>
+            <p>В своем творчестве я стремлюсь передать красоту окружающего мира через призму эмоций и впечатлений. Каждая картина — это история, которую я хочу рассказать зрителю.</p>
+            
+            <h3>Ключевые особенности моего творчества:</h3>
+            <ul class="features-list">
+                <li>Использование различных техник: масло, акварель, пастель, смешанная техника</li>
+                <li>Направления: реализм, импрессионизм, современное искусство</li>
+                <li>Более 5 лет профессионального опыта</li>
+            </ul>
+        </section>
+
+        <!-- Блок "Галерея работ" -->
+        <section id="gallery" class="content-section">
+            <h2>Галерея работ</h2>
+            <p>Ниже представлены некоторые из моих последних работ. При наведении курсора вы можете рассмотреть детали изображений.</p>
+            
+            <div class="gallery-container">
+                <figure class="artwork">
+                    <img src="https://avatars.mds.yandex.net/i?id=683af7c60cab3efa475d4c1d61e4a010cc943eb4-5858704-images-thumbs&n=13" alt="Картина маслом 'Рассвет в горах'" class="gallery-image">
+                    <figcaption>"Рассвет в горах", масло, 2024</figcaption>
+                </figure>
+                
+                <figure class="artwork">
+                    <img src="https://avatars.mds.yandex.net/i?id=856288d8388ea86c97d53bbaa6484f8a29ded295-3560974-images-thumbs&n=13" alt="Картина акварелью 'Морской пейзаж'" class="gallery-image">
+                    <figcaption>"Морской пейзаж", акварель, 2023</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Блок "Контактная форма" -->
+        <section id="contacts" class="content-section">
+            <h2>Контактная форма</h2>
+            <p>Если вы хотите заказать картину, задать вопрос или просто пообщаться об искусстве, заполните форму ниже. Я обязательно отвечу вам в ближайшее время.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Отправить сообщение</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Учебный проект</p>
+            <p>Посетите мой профиль на <a href="https://www.artstation.com/" target="_blank">ArtStation</a> для просмотра дополнительных работ</p>
+        </div>
+    </footer>
+</body>
+</html>
